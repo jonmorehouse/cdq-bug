@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="0001 initial" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12D78" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+  <entity name="Connection" syncable="YES" representedClassName="Connection">
+    <attribute optional="NO" syncable="YES" attributeType="Boolean" name="is_user" defaultValueString="NO"/>
+    <attribute optional="YES" syncable="YES" attributeType="String" name="account_id"/>
+    <attribute optional="YES" syncable="YES" attributeType="String" name="phone_number"/>
+    <attribute optional="YES" syncable="YES" attributeType="Boolean" name="is_contact" defaultValueString="NO"/>
+    <attribute optional="YES" syncable="YES" attributeType="String" name="contact_id"/>
+    <attribute optional="YES" syncable="YES" attributeType="Boolean" name="is_friend" defaultValueString="NO"/>
+    <attribute optional="YES" syncable="YES" attributeType="String" name="friend_id"/>
+    <attribute optional="YES" syncable="YES" attributeType="Boolean" name="is_follower" defaultValueString="NO"/>
+    <attribute optional="YES" syncable="YES" attributeType="String" name="follower_id"/>
+    <attribute optional="YES" syncable="YES" attributeType="Boolean" name="is_best_friend" defaultValueString="NO"/>
+    <attribute optional="YES" syncable="YES" attributeType="String" name="best_friend_id"/>
+    <attribute optional="YES" syncable="YES" attributeType="Boolean" name="is_recent_friend" defaultValueString="NO"/>
+    <attribute optional="YES" syncable="YES" attributeType="String" name="recent_friend_id"/>
+    <attribute optional="YES" syncable="YES" attributeType="Date" name="created_at"/>
+    <attribute optional="YES" syncable="YES" attributeType="Date" name="updated_at"/>
+    <attribute optional="YES" syncable="YES" attributeType="Date" name="local_updated_at"/>
+  </entity>
+</model>
